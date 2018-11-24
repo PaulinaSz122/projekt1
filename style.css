@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+body{
+    background-image: url("img/wheat.png");
+    font-family: Calibri, sans-serif;
+    color: #352d1e;
+}
+a{
+    color: #352d1e;
+    display: block;
+    text-decoration: none;
+}
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title > a{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Asul', sans-serif;
+    background: #2f4261;
+    color: peru;
+
+}
+#sidebar{
+    background: #dcbe96;
+    float: left;
+    width: 210px;
+    min-height: 620px;
+    padding: 20px;
+    border-right: 2px dotted #666666;
+}
+#sidebar > ul > li{
+    font-size: 22px;
+    height: 32px;
+    padding: 10px 5px 5px;
+    border-bottom: 2px dotted #444444;
+}
+#sidebar > ul > li:hover
+{
+    background-color: #b0926c;
+    cursor: pointer;
+}
+#content{
+    background: #cdaf87;
+    float: left;
+    padding: 40px;
+    width: 668px;
+    min-height: 580px;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+#footer{
+    clear: both;
+    text-align: center;
+    color: #e9a13f;
+    padding: 20px;
+    font-size: 18px;
+    background: #2f4261;
+}
+.icon{
+    background-image: url('img/sprite.png');
+    clear: both;
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 5px;
+}
+.im-talie{
+    background-position-x: 0;
+}
+.im-galeria{
+    background-position-x: 32px;
+}
+.im-funny{
+    background-position-x: 64px;
+}
+.im-dodatki{
+    background-position-x: 96px;
+}
+.im-klasy{
+    background-position-x: 128px;
+}
