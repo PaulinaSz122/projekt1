@@ -56,6 +56,9 @@ img{
     max-width: 100%;
     max-height: 100%;
 }
+iframe{
+    margin: 20px;
+}
 #container{
     background: #dcbe96;
     max-width: 1000px;
