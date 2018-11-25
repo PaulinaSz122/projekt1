@@ -112,6 +112,111 @@ input[type=submit]:hover
 {
     background-color: #322a1b;
 }
+
+@media (min-width: 1100px) {
+    #title{
+        font-size: 50px;
+    }
+    #container{
+        width: 1050px;
+    }
+    #sidebar{
+        width: 210px;
+        padding: 20px;
+    }
+    #sidebar > ul > li{
+        padding: 10px 5px 5px;
+    }
+    #content{
+        width: 718px;
+        border-left: 2px dotted #666666;
+        padding: 40px;
+        font-size: 22px;
+    }
+    iframe{
+        width: 560px;
+        height: 315px;
+    }
+}
+@media (max-width: 1100px) and (min-width: 1000px){
+    #title{
+        font-size: 50px;
+    }
+    #container{
+        width: 950px;
+    }
+    #sidebar{
+        width: 210px;
+        padding: 20px;
+    }
+    #sidebar > ul > li{
+        padding: 10px 5px 5px;
+    }
+    #content{
+        width: 618px;
+        border-left: 2px dotted #666666;
+        padding: 40px;
+        font-size: 22px;
+    }
+    iframe{
+        width: 560px;
+        height: 315px;
+    }
+}
+@media (max-width: 1000px) and (min-width: 800px){
+    #title{
+        font-size: 50px;
+    }
+    #container{
+        width: 750px;
+    }
+    #sidebar{
+        width: 210px;
+        padding: 20px;
+    }
+    #sidebar > ul > li{
+        padding: 10px 5px 5px;
+    }
+    #content{
+        width: 418px;
+        border-left: 2px dotted #666666;
+        padding: 40px;
+        font-size: 22px;
+    }
+    iframe{
+        width: 392px;
+        height: 220px;
+    }
+}
+@media (max-width: 800px){
+    #title{
+        font-size: 40px;
+    }
+    #container{
+        width: 90%;
+    }
+    #sidebar{
+        width: 94%;
+        padding: 3% 3% 0;
+    }
+    #sidebar > ul > li{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #content{
+        width: 96%;
+        padding: 2%;
+        font-size: 17px;
+    }
+    .gallery:hover{
+        transform: scale(1.05);
+    }
+    iframe{
+        width: 296px;
+        height: 166px;
+    }
+}
+
 #formularz{
     width: 300px;
     margin-left: auto;
@@ -119,17 +224,16 @@ input[type=submit]:hover
 }
 #container{
     background: #dcbe96;
-    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 #title > a{
     margin-top: 20px;
-    font-size: 50px;
     letter-spacing: 3px;
     font-weight: 900;
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: 'Asul', sans-serif;
     background: #2f4261;
     color: peru;
@@ -137,14 +241,11 @@ input[type=submit]:hover
 }
 #sidebar{
     float: left;
-    width: 210px;
     height: 100%;
-    padding: 20px;
 }
 #sidebar > ul > li{
     font-size: 22px;
     height: 32px;
-    padding: 10px 5px 5px;
     border-bottom: 2px dotted #444444;
 }
 #sidebar > ul > li:hover
@@ -155,12 +256,8 @@ input[type=submit]:hover
 #content{
     background: #cdaf87;
     float: left;
-    padding: 40px;
-    width: 668px;
     min-height: 580px;
     text-align: justify;
-    font-size: 22px;
-    border-left: 2px dotted #666666;
 }
 #content > ul > li{
     list-style-type: circle;
@@ -205,7 +302,4 @@ footer{
     -webkit-box-shadow: 2px 2px 2px 2px rgba(53,45,30,1);
     -moz-box-shadow: 2px 2px 2px 2px rgba(53,45,30,1);
     box-shadow: 2px 3px 2px 2px rgba(53,45,30,1);
-}
-.gallery:hover{
-    transform: scale(1.15);
 }
