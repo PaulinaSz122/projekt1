@@ -59,6 +59,16 @@ img{
 iframe{
     margin: 20px;
 }
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table, td, th{
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #352d1e;
+    margin: auto auto 10px;
+}
 #container{
     background: #dcbe96;
     max-width: 1000px;
@@ -124,7 +134,7 @@ footer{
     float: left;
     margin-right: 5px;
 }
-.im-talie{
+.im-formularz{
     background-position-x: 0;
 }
 .im-galeria{
