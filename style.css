@@ -208,9 +208,6 @@ input[type=submit]:hover
         padding: 2%;
         font-size: 17px;
     }
-    .gallery:hover{
-        transform: scale(1.05);
-    }
     iframe{
         width: 296px;
         height: 166px;
@@ -302,4 +299,7 @@ footer{
     -webkit-box-shadow: 2px 2px 2px 2px rgba(53,45,30,1);
     -moz-box-shadow: 2px 2px 2px 2px rgba(53,45,30,1);
     box-shadow: 2px 3px 2px 2px rgba(53,45,30,1);
+}
+.gallery:hover{
+    transform: scale(1.15);
 }
